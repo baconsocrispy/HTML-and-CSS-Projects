@@ -1,0 +1,9 @@
+/* Makes Font Purple */
+
+.purple_party	{
+	color: purple;
+	background: seagreen;
+	font-weight: bolder;
+	text-align: justify;
+	text-shadow: 2px 2px black; 
+}
