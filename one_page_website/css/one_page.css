@@ -1,0 +1,29 @@
+#header_container {
+  border: 1px solid seagreen;
+  background-color: cornsilk;
+}
+#main_header  {
+  border: 1px solid seagreen;
+  text-align: center;
+}
+#home {
+  border: 2px solid purple;
+}
+/* #home_image {
+  object-fit: contain;
+} */
+#header_menu {
+  font-family: futura;
+}
+
+#header_menu ul{
+}
+
+h1  {
+  color: seagreen;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
