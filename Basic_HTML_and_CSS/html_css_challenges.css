@@ -1,0 +1,97 @@
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  filter: blur(5px);
+  border-radius: 50px;
+}
+
+footer  {
+  font-weight: bold;
+  text-align: center;
+}
+
+table  {
+  border: 1px solid seagreen;
+}
+
+th  {
+  border-bottom: 1px solid seagreen;
+  background-color: blueviolet;
+}
+
+th, td  {
+  padding: 15px;
+}
+p:hover {
+  font-size: 10em;
+  color: mediumslateblue;
+  cursor: pointer;
+}
+.container  {
+  position: relative;
+}
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: seagreen;
+  opacity: .7;
+  z-index: 100;
+  color: lavender;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 15px;
+}
+
+.navbar li:hover {
+  background-color: lavender;
+  color: goldenrod;
+  border-radius: 5px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col  {
+  float: left;
+  width:25%;
+  height: 500px;
+  margin: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: goldenrod;
+  border: 1px solid goldenrod;
+  overflow: hidden;
+  padding: 8px 0px 0px 8px;
+}
+.overlay  {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  opacity: 0;
+  transition: .5s ease;
+}
+.overlay:hover  {
+  opacity: 1;
+}
+@media  screen and (max-width: 600px) {
+  p {
+    color: blue;
+  }
+}
