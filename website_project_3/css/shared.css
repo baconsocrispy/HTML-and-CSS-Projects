@@ -173,7 +173,7 @@ section {
   color: rgba(255, 255, 255, .8);
   letter-spacing: 5pt;
   word-spacing: 10pt;
-  font-size: 4.5em;
+  font-size: 3vw;
   text-align: left;
   font-family: futura, sans-serif;
   line-height: 2;
@@ -184,7 +184,7 @@ section {
 }
 
 .head-sub-main  {
-  font-size: 23px;
+  font-size: 1.5em;
   font-weight: 500;
   padding: 50px 20px 10px 20px;
   text-transform: uppercase;
